@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --vermelhor: #e50914d2;
+    --preto: #141414;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    color: var(--vermelhor);
+    font-family: 'arial black', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Conteudo Principal*/
+
+.filmePrincipal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/la-casa-de-papel-netflix-5-temporada-geek-publicitario.jpg');
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmePrincipal .descricao{
+    margin-top: 2%;
+    margin-bottom: 10px;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.titulo{
+    margin-top: 30%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 25px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--preto);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filmePrincipal .container{
+    width: 60%;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+
+}
+
+.box-filme{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
