@@ -1,0 +1,29 @@
+.navbar {
+    background-color: rgba(10, 122, 188, 1);
+}
+
+.quem-somos {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: rgb(132, 132, 171);
+    background: linear-gradient(338deg, rgba(132, 132, 171, 1) 18%, rgba(10, 122, 188, 1) 59%);
+
+}
+
+.margin {
+    padding-bottom: 50px;
+}
+
+#parceiros {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: rgb(10, 122, 188);
+    background: linear-gradient(338deg, rgba(10, 122, 188, 1) 18%, rgba(132, 132, 171, 1) 59%);
+}
+
+#servicos{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: rgb(132, 132, 171);
+    background: linear-gradient(338deg, rgba(132, 132, 171, 1) 18%, rgba(10, 122, 188, 1) 59%);
+}
